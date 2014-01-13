@@ -1,0 +1,5 @@
+dn: <%= @base %> 
+objectClass: dcObject
+objectClass: organization
+dc: <%= @organization %>
+o: <%= @organization %>
